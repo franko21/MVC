@@ -266,16 +266,15 @@ public class ControlPersona {
         });
         vista.getBtnBuscar().addActionListener(l->buscarPersona());
     }
-    private void limpiar(){
-        vista.getTxtCedula().setText(null);
-        vista.getTxtNombre().setText(null);
-        vista.getTxtApellidos().setText(null);
-        vista.getTxtTelefono().setText(null);
-        vista.getTxtEmail().setText(null);
-        vista.getTxtSueldo().setText(null);
-        vista.getTxtCupo().setText(null);
-        vista.getDchFecha().setDate(null);
-        vista.getTxtCedula().setEnabled(true);
-        
-    }
+        private void limpiar(){
+            vista.getTxtCedula().setText(null);
+            vista.getTxtNombre().setText(null);
+            vista.getTxtApellidos().setText(null);
+            vista.getTxtTelefono().setText(null);
+            vista.getTxtEmail().setText(null);
+            vista.getTxtSueldo().setText(null);
+            vista.getTxtCupo().setText(null);
+            vista.getDchFecha().setDate(null);
+            vista.getTxtCedula().setEnabled(true);
+        }
 }
